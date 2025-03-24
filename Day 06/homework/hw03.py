@@ -9,3 +9,12 @@ NUM4 = int(input("enter fourth number: "))
 score = (num1 + Num2 + num3 + NUM4 ) /4
 print(score)
 
+
+
+
+
+
+
+
+
+

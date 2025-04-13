@@ -2,4 +2,4 @@
 
 age = int(input("Enter your age: "))
 print(age // 2)
-print(38 % 2)
+print(age % 2)

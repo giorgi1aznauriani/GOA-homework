@@ -1,0 +1,72 @@
+<!-- . REGISTER გვერდზე უნდა იყოს სარეგისტრაციო ფორმა, სადაც მომხმარებელს მოსთხოვთ მის: სახელს, გვარს, ემაილს, პაროლს, ასაკს, სქესს, ქვეყანას, საყვარელ ფერს და ტელეფონის ნომერს (ქვეყნის ასარჩევად გამოიყენეთ DropDown Menu, ფერის ასარჩევად გამოიყენეთ <input type="color">, სქესის ასარჩევად გამოიყენეთ radio... ბოლოს უნდა გქონდეთ დადასტურების ღილაკი და ეს მონაცემები უნდა გქონდეთ სწორედ დახარისხებული + სწორედ დაკავშირებული label-ებით და ასევე გამოყენებული უნდა გქონდეთ placeholder-ები... -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <center><a href="./about.html">ABOUT ME</a></center>
+        <br>
+        <br>
+        <center><a href="./contact.html">CONTACT</a></center>
+        <br>
+        <br>
+        <center><a href="./Register.html">REGISTER</a></center>
+        
+
+            
+            
+
+       <input type="text" required name="first name" placeholder="Enter your first name">
+       <br>
+       <br>
+       <input type="text" required name="last name" placeholder="Enter your last name">
+       <br>
+       <br>
+       <input type="email" required name="email" placeholder="Enter your email">
+       <br>
+       <br>
+       <input type="password" required name="password" placeholder="Enter your password">
+       <br>
+       <br>
+       <input type="text" required name="age" placeholder="Enter your age"> 
+       <br>
+       <br>
+       <input type="number" required name="number" placeholder="Enter your number">
+       <br>
+       <br>
+       <label for="gender">choose a gender:</label>
+       <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+       </select>
+        <br>
+        <br>
+       <form action="">
+        <label for="Country">Choose a country:</label>
+        <select name="country" id="Country">
+        <option value="Georgia">Georgia</option>
+        <option value="France">france</option>
+        <option value="Spain">Spain</option>
+        <option value="Brazil">Brazil</option>
+       </select>
+       <br>
+       <br>
+       <label for="color">choose a color:</label>
+       <input type="color" required name="color"placeholder="Enter your favorite color">
+       <br>
+       <input type="checkbox">
+       <br>
+       <button>submit</button>
+       
+       
+
+
+    </nav>
+</body>
+</html>

@@ -3,4 +3,5 @@
 i = 25
 while i <= 55:
     print(i)
-    i = i + 3
+    i = i + 2
+    

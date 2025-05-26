@@ -1,0 +1,33 @@
+<!-- 2)შექმენით სარეგისტრაციო ფორმა, სადაც მომხმარებელს შემოატანინებთ მის ქვეყანას (drop down menu), შემოტანინებთ მის სახელს და შემოატანინებთ მის გვარს, შექმენით დადასტურების ღილაკი და სწორედ დაახარისხეთ ეს მონაცემები name ატრიბუტის მეშვებოით (ყველაფერი ახსენით კომენტარების სახით) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+     <!-- შევქმენი სარეგისტრაციო ფორმა რადგან შემოვატანინო მომხმარებელს სხვადასხვა მონაცემები.-->
+      <form action="">
+        <label for="Country">Choose a country:</label>
+        <select name="country" id="Country">
+        <option value="Georgia">Georgia</option>
+        <option value="France">france</option>
+        <option value="Spain">Spain</option>
+        <option value="Brazil">Brazil</option>
+       </select>
+       <br>
+       <!-- ჩვენ ვიყენებთ  input type name-ს რადგან შემოვატანინოთ მომხმარებელს სახელი და გვარი შემდეგ კი submit button-ით დავადასტუროთ ის -->
+         <br>
+       <input type="text" required name="first name" placeholder="Enter your first name">
+       <br>
+       <br>
+       <input type="text" required name="last name" placeholder="Enter your last name">
+       <br>
+       <br>
+       <button>submit</button>
+
+
+
+
